@@ -1,5 +1,17 @@
-"scripts": {
-  "dev": "next dev",
-  "build": "next build && next export",
-  "start": "next start"
+{
+  "name": "fishrunner",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "13.4.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
 }
