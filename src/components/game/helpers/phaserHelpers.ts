@@ -65,7 +65,7 @@ export function createPhysicsGraphics(
 ): Phaser.GameObjects.Graphics {
   const graphics = scene.add.graphics();
   graphics.setPosition(x, y);
-  
+
   const defaultOptions: MatterJS.IBodyDefinition = {
     isStatic: isStatic,
     friction: 0.3,
@@ -73,10 +73,11 @@ export function createPhysicsGraphics(
     restitution: 0.1,
     ...options
   };
-  
+
   scene.matter.add.gameObject(graphics, {
     shape: { type: 'rectangle', width: width, height: height },
     ...defaultOptions
   });
-  
+
   return graphics;
+}
