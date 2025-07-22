@@ -1,5 +1,4 @@
 import * as Phaser from 'phaser';
-import PhaserMatterCollisionPlugin from 'phaser-matter-collision-plugin';
 
 const gameConfig: Phaser.Types.Core.GameConfig = {
   width: 800,
@@ -10,18 +9,9 @@ const gameConfig: Phaser.Types.Core.GameConfig = {
     default: 'matter',
     matter: {
       gravity: { y: 0.8 },
-      debug: false, // Set to true for debugging physics bodies
+      debug: false,
       enableSleeping: false,
     }
-  },
-  plugins: {
-    scene: [
-      { 
-        plugin: PhaserMatterCollisionPlugin, 
-        key: 'matterCollision', 
-        mapping: 'matterCollision' 
-      }
-    ]
   },
   scale: {
     mode: Phaser.Scale.FIT,
