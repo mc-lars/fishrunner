@@ -11,7 +11,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "phaser": "^3.70.0",
-    "phaser-matter-collision-plugin": "https://github.com/martinmaly/phaser-matter-collision-plugin.git"
+    "phaser-matter-collision-plugin": "https://codeload.github.com/martinmaly/phaser-matter-collision-plugin/tar.gz/master"
   },
   "devDependencies": {
     "typescript": "^5.0.0"
