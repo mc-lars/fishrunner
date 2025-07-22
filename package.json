@@ -12,7 +12,7 @@
     "react-dom": "^18.2.0",
     "phaser": "^3.70.0",
     "phaser-matter-collision-plugin": "^1.2.4",
-    "@excaliburjs/plugin-jsfxr": "^0.25.0"
+    "@excaliburjs/plugin-jsfxr": "0.3.2"
   },
   "devDependencies": {
     "typescript": "^5.0.0"
